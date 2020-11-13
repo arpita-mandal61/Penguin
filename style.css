@@ -1,0 +1,161 @@
+body{
+  background-color: paleturquoise ;
+}
+.penguin {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 55px;
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+}
+.penguin-top {
+  position: absolute;
+  top: 30px;
+  left: 118px;
+  background: black;
+  width: 50%;
+  height: 45%;
+  border-radius: 80% 80% 60% 60%;
+}
+.penguin-bottom {
+  position: absolute;
+  top: 175px;
+  left: 100px;
+  background: black;
+  width: 56%;
+  height: 60%;
+  border-radius: 80% 80% 90% 90%;
+
+}
+.right-hand {
+  position: absolute;
+    top: 0%;
+    left: -10%;
+    background:black;
+    width: 40%;
+    height: 70%;
+    border-radius: 40% 30% 150% 30%;
+    transform: rotate(45deg);
+  
+  }
+  .left-hand {
+    position: absolute;
+    top: 0%;
+    left: 71%;
+    
+    background:black;
+    width: 40%;
+    height: 70%;
+    border-radius: 40% 30% 30% 150%;
+    transform: rotate(-45deg);
+
+  }
+
+ 
+  .right-cheek {
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    background: white;
+    width: 60%;
+    height: 70%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .left-cheek {
+    position: absolute;
+    top: 18%;
+    left: 35%;
+    background:white;
+    width: 60%;
+    height: 70%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .belly {
+    position: absolute;
+    top: 73%;
+    left: -3px;
+    background:white;
+    width: 100%;
+    height: 115%;
+    border-radius: 120% 120% 100% 100%;
+  }
+
+  .right-feet {
+    position: absolute;
+    top: 76%;
+    left: 63%;
+    background: orangered;
+    width: 20%;
+    height: 40%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(-80deg);
+    
+  }
+
+  .left-feet {
+    position: absolute;
+    top: 76%;
+    left: 20%;
+    background: orangered;
+    width: 20%;
+    height: 40%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(80deg);
+    
+  }
+
+  .right-eye {
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    background: black;
+    width: 15%;
+    height: 20%;
+    border-radius: 50%;
+  }
+
+  .left-eye {
+    position: absolute;
+    top: 40%;
+    left: 21%;
+    background: black;
+    width: 15%;
+    height: 20%;
+    border-radius: 50%;
+  }
+
+  .sparkle {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    background: white;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+  }
+
+  
+
+  .beak-top {
+    position: absolute;
+    top: 64%;
+    left: 40%;
+    background: var(--penguin-beak, orange);
+    width: 20%;
+    height: 10%;
+    border-radius: 50% ;
+  }
+
+  .beak-bottom {
+    position: absolute;
+    top: 70%;
+    left: 42.5%;
+    background: var(--penguin-beak, orange);
+    width: 15%;
+    height: 10%;
+    border-radius: 50% 80% 150% 150%;
+  }
